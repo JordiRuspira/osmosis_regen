@@ -1496,6 +1496,7 @@ with tab3:
         "Let's check common traders"
     )
     
+    st.write("The following chart shows the number of daily traders for the Regen - Osmo pool and the shared traders with the Regen - Atom pools for the same day. Interestingly, there are some days where the number of shared traders is around 40%.")
     
     
     
