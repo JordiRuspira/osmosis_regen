@@ -764,7 +764,8 @@ with tab2:
     )
     
     fig.update_traces( marker_color='#2E8B57')
-    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide') 
+    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide', xaxis_title="Date",
+    yaxis_title="Volume (USD)") 
     osmo_col1.plotly_chart(fig, use_container_width=True) 
     
  
@@ -804,7 +805,8 @@ with tab2:
     )
     
     fig.update_traces( marker_color='#2E8B57')
-    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide') 
+    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide', xaxis_title="Date",
+    yaxis_title="Volume (USD)") 
     atom_col2.plotly_chart(fig, use_container_width=True) 
     
 
@@ -1062,7 +1064,8 @@ with tab2:
     )
     
     fig.update_traces( marker_color='#2E8B57')
-    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide') 
+    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide', xaxis_title="Date",
+    yaxis_title="Liquidity (USD)") 
     osmo_col3.plotly_chart(fig, use_container_width=True) 
     
     
@@ -1105,7 +1108,8 @@ with tab2:
         line_dash="solid",
     )
     fig.update_traces( marker_color='#2E8B57')
-    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide') 
+    fig.update_layout(uniformtext_minsize=8, uniformtext_mode='hide', xaxis_title="Date",
+    yaxis_title="Liquidity (USD)") 
     atom_col4.plotly_chart(fig, use_container_width=True) 
     
     
