@@ -733,7 +733,7 @@ with tab2:
     osmo_col1.text("")
     
     
-    fig = px.bar(regen_osmo_df, y='Date', x='Volume (USD)')#, text='Daily Volume - Pool Regen-Atom')
+    fig = px.bar(regen_osmo_df, y='value', x='time')#, text='Daily Volume - Pool Regen-Atom')
  
     fig.add_vrect(
         x0="2022-09-26",
@@ -773,7 +773,7 @@ with tab2:
     atom_col2.markdown("""---""")
     atom_col2.text("")
     
-    fig = px.bar(regen_atom_df, y='Date', x='Volume (USD)')#, text='Daily Volume - Pool Regen-Atom')
+    fig = px.bar(regen_atom_df, y='value', x='time')#, text='Daily Volume - Pool Regen-Atom')
     fig.update_traces(texttemplate='%{text:.2s}', textposition='outside')
     fig.add_vrect(
         x0="2022-09-26",
