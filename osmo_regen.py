@@ -71,7 +71,7 @@ pio.renderers.default = 'browser'
 
 
 
-API_KEY = "3b5afbf4-3004-433c-9b04-2e867026718b"
+API_KEY = st.secrets["API_KEY"]
 
 SQL_QUERY_0 = """  select to_date(block_timestamp) as date, count(distinct trader) as num_traders, count(distinct tx_id) as num_transactions from  osmosis.core.fact_swaps, table(flatten(input => pool_ids))
 where tx_status = 'SUCCEEDED'
