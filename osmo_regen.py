@@ -47,6 +47,7 @@ st.text("")
 st.subheader('Dashboard by [Jordi R](https://twitter.com/RuspiTorpi/). Powered by Flipsidecrypto')
 st.text("")
 st.markdown('The goal of this dashboard is to introduce Regen Network and the news seen at Cosmoverse, and to see whether it had an effect or not on the related Osmosis pools. Appart from that I`ve displayed user behavior, retention rate and a brief introduction to mesh security.' )   
+st.markdown('This dashboard queries data from different APIs and is still a first version, so please be patient when loading. If it shows an error, refreshing the page might solve it.' )   
 
 st.markdown(
         f"""
@@ -629,7 +630,7 @@ with tab1:
     st.write("Regarding the Regen token, the native Regen token is used for staking to secure the blockchain and earn rewards, it serves as a governance token and is used to pay for fees on the network. Also, in order to mint credits you need to burn Regen tokens. ")
     
     st.markdown("---")
-    st.subheader("News on Cosmoverse: Neutral Carbon Credits (NCT) and Marketplace")
+    st.subheader("News on Cosmoverse: Nature Carbon Ton (NCT) and Marketplace")
     
     st.markdown("---")
     st.image(
