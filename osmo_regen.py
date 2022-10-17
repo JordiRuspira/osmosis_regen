@@ -22,7 +22,7 @@ import numpy as np
 from plotly.subplots import make_subplots
 from PIL import Image 
 import datetime 
-    try:
+try:
     st.set_page_config(
         page_title="Osmosis x Regen network - Deep dive",
         page_icon=":atom_symbol:",
