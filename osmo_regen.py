@@ -1722,4 +1722,4 @@ try:
         st.markdown("---")
 
 except: 
-   st_autorefresh(interval=10, key="dataframerefresh")
+   st_autorefresh(interval=10)
